@@ -9,8 +9,8 @@ console.log(round_count.innerText);
 
 count = count + 1;
 bead_count.innerText = count;
-rounds = rounds+ parseInt(count/4);
-if (count==4){
+rounds = rounds+ parseInt(count/108);
+if (count==108){
     count = 0;
 }
 round_count.innerText = rounds;
